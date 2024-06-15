@@ -1,5 +1,6 @@
 const server = require('./utils/socketIo')
 const {mongoDB} = require('./config/monogdb')
+const dotenv = require('dotenv').config()
 
 mongoDB()
 
